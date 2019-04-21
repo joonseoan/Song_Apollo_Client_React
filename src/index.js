@@ -13,7 +13,7 @@ import SongDetails from './components/song_details';
 
 // connects to the server-side graphql, express-graphql with uri address
 const client = new ApolloClient({
-	uri: 'http://localhost:7000/graphql'
+	uri: 'https://song_server.joonan.net/graphql'
 });
 
 const Root = () => {
